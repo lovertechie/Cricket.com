@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login-page-body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        .login-panel{
+            border: 2px solid whitesmoke;
+            border-radius: 4px;
+            background-color: white;
+            height: 300px;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loginacc{
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .login-credentials{
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-credentials p{
+            text-align: left;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .login-credentials p a:hover{
+            text-decoration: underline;
+            color: #750D37;
+        }
+        .login-credentials button{
+            border-radius: 5px;
+            width: 250px;
+            height: 30px;
+            background-color: #750D37;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .login-button{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+        }
+        .login-extra a{
+            color: black;
+            text-decoration: none;
+            font-size: 0.75rem;
+        }
+
+        .login-extra a:hover{
+            text-decoration: underline;
+            color: #750D37;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header area -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-add border ">
+                <p class="del-comm">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="del-add">Durgapur,713216</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Cricket.com" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <a href="#"><p><span>Hello, Sign in</span></p></a>
+                <a href="#"><p class="signin-comm">My Account</p></a>
+            </div>
+            <div class="nav-orders border">
+               <a href="#"><p><span>Returns</span></p></a>
+                <a href="#"><p class="orders-comm">& My Orders</p></a>
+            </div>
+            <div class="nav-cart border">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        
+    </header>
+
+    <!--Body area-->
+    
+    <div class="login-page-body">
+        <div class="login-panel">
+            <div class="loginacc">
+                <h1>Welcome Back!</h1>
+            </div>
+            <div class="login-credentials">
+                <p>Enter your Registered Email or Mobile No.*</p>
+                <input placeholder="Enter your Email/ Phone No." required>
+                <p>Password*</p>
+                <input placeholder="Enter your password here" type="password" required>
+                <p style="text-align: start; font-size: 0.75rem"><a href="#" style="color: black; text-decoration: none;">Forgot Password?</a></p>
+                <p><input type="checkbox"> Remember Me</p>
+                <div class="login-button">
+                    <a href="index.html"><button>Sign In</button></a>
+                </div>
+                
+            </div>
+            <div class="login-extra">
+                <span style="align-items: end;"><a href="create-account.html">Not an old user? Create Account</a></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer area -->
+
+    <footer>
+        <div class="footer-panel1">
+            Back to top
+        </div>
+        <div class="footer-panelrow">
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Investor relations</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Connect with Us</p>
+                <a href="https://www.facebook.com/sanket.pal.5817/">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="https://www.instagram.com/sanketpalbrj_07/">Instagram</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on Cricket.com</a>
+                <a href="#">Build Your Brand with Us</a>
+                <a href="#">Cricket.com Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Cricket.com</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-panel3">
+        <div class="logo"><a href="#"></a></div>
+        <div class="footer-panel3a">
+            <div class="footer-panel3a1">
+                <a href="#">Conditons of Use & Sale</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Internet baseb Ads</a>
+            </div>
+            <div class="footer-panel3a2">
+                <p>© 2024 Cricket.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
