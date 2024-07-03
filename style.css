@@ -204,14 +204,76 @@ img {
     }
 }
 
-/*body area temporary*/
-.bodyarea{
-    height: 500px;
+/*Shopping Categories*/
+
+.shoppingcategories{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.bodyarea p{
-    padding: 225px;
+.shoppingcategories a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.10rem;
+
 }
+
+.opts{
+    width: 100px;
+    height: 150px;
+    border: 0.5px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shopcontent{
+    margin-left: 40px;
+}
+
+
+/* Top picks*/
+
+.toppicks{
+    height: 412px;
+    display: flex;
+    align-items: center;
+}
+
+.picked-items{
+    height: 412px;
+}
+
+.picked-items a{
+    text-decoration: none;
+    color: black;
+}
+
+.picked-item-opts{
+    height: 412px;
+    border: 1px solid whitesmoke;
+    
+}
+
+
+.pick-details-box{
+    height: 81px;
+    width: 287px;
+    padding: 10px 12px;
+}
+
+.box{
+    height: 300px;
+    width: 23%;
+    border: 1px solid black;
+}
+
+/*NEXT PARTS IS STILL PENDING*/
 
 
 /*Footer*/
