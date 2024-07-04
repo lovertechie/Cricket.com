@@ -273,8 +273,81 @@ img {
     border: 1px solid black;
 }
 
-/*NEXT PARTS IS STILL PENDING*/
+/*Best Sellers*/
 
+.bestsellers{
+    height: 412px;
+    display: flex;
+    align-items: center;
+}
+
+.bestseller-items{
+    height: 412px;
+}
+
+.bestseller-items a{
+    text-decoration: none;
+    color: black;
+}
+
+.bestseller-opts{
+    height: 412px;
+    border: 1px solid whitesmoke;
+    
+}
+
+
+.bestseller-details-box{
+    height: 81px;
+    width: 287px;
+    padding: 10px 12px;
+}
+
+/*Press Blog*/
+
+.press-highlight{
+    height: 412px;
+    width: 1400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.press-highlight-box{
+    height: 412px;
+    display: flex;
+}
+
+.press-icon{
+    height: 412px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.30px solid black;
+    background-color: whitesmoke;
+}
+
+.press-blog{
+    background-color: whitesmoke;
+    display: block;
+    text-align: center; 
+}
+
+.press-blog p{
+    font-size: 2rem;
+}
+
+.quote-icon{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+/*End of Body CSS*/
 
 /*Footer*/
 footer{
