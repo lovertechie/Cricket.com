@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersey List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .list-body{
+            display: flex;
+            justify-content: center;
+        }
+
+        .list-items{
+            display: flex;
+            border-bottom: 1px solid black;
+            border-right: 1px solid whitesmoke ;
+            border-left: 1px solid whitesmoke;
+        }
+
+        .list-content a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .product-img{
+            border-right: 1px solid whitesmoke;
+        }
+
+        .product-name-detail{
+            height: 250px;
+            width: 486px;
+            padding: 0px 4px 0px 8px;
+        }
+
+        .product-details-div{
+            height: 153px;
+            width: 241px;
+            padding: 0px 4px;
+        }
+
+        .product-name{
+            height: 74px;
+            width: 472px;
+        }
+
+        .product-price{
+            width: 241px;
+            height: 59px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- header area -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-add border ">
+                <p class="del-comm">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="del-add">Durgapur,713216</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Cricket.com" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <a href="my_account-login.html"><p><span>Hello, Sign in</span></p></a>
+                <a href="my_account-login.html"><p class="signin-comm">My Account</p></a>
+            </div>
+            <div class="nav-orders border">
+               <a href="#"><p><span>Returns</span></p></a>
+                <a href="#"><p class="orders-comm">& My Orders</p></a>
+            </div>
+            <div class="nav-cart border">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body area -->
+
+    <div class="list-body">
+    <div class="list-content">
+
+        <!-- List Item 1 -->
+
+        <a href="#"><div class="list-items">
+            <div class="product-img" style="background-image: url('India\ jersey.webp'); background-size: cover; height: 250px; width: 241px; padding: 0px 8px;">
+
+            </div>
+            <div class="product-name-detail">
+                <div class="product-name"><h2>ORIGINAL TEAM INDIA FAN JERSEY</h2></div>
+                <div class="product-details-div">
+                <div class="product-price"><div class="product-price-div">Rs. 999/-</div>
+                </div>
+                <p>Free Delivery</p>
+                <p style="margin-top: 20px;">Get it buy 7-10 days</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- List Item 2 -->
+
+        <a href="#"><div class="list-items">
+            <div class="product-img" style="background-image: url('csk\ jersey\ 1.webp'); background-size: cover; height: 250px; width: 241px; padding: 0px 8px;">
+
+            </div>
+            <div class="product-name-detail">
+                <div class="product-name"><h2>ORIGINAL CHENNAI SUPER KINGS FAN JERSEY</h2></div>
+                <div class="product-details-div">
+                <div class="product-price"><div class="product-price-div">Rs. 999/-</div>
+                </div>
+                <p>Free Delivery</p>
+                <p style="margin-top: 20px;">Get it buy 7-10 days</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- List Item 3 -->
+
+        <a href="#"><div class="list-items">
+            <div class="product-img" style="background-image: url('KKR\ jersey.webp'); background-size: cover; height: 250px; width: 241px; padding: 0px 8px;">
+
+            </div>
+            <div class="product-name-detail">
+                <div class="product-name"><h2>ORIGINAL KOLKATA KNIGHT RIDERS FAN JERSEY</h2></div>
+                <div class="product-details-div">
+                <div class="product-price"><div class="product-price-div">Rs. 999/-</div>
+                </div>
+                <p>Free Delivery</p>
+                <p style="margin-top: 20px;">Get it buy 7-10 days</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- List Item 4 -->
+
+        <a href="#"><div class="list-items">
+            <div class="product-img" style="background-image: url('MI\ jersey.webp'); background-size: cover; height: 250px; width: 241px; padding: 0px 8px;">
+
+            </div>
+            <div class="product-name-detail">
+                <div class="product-name"><h2>ORIGINAL MUMBAI INDIANS FAN JERSEY</h2></div>
+                <div class="product-details-div">
+                <div class="product-price"><div class="product-price-div">Rs. 999/-</div>
+                </div>
+                <p>Free Delivery</p>
+                <p style="margin-top: 20px;">Get it buy 7-10 days</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- List Item 5 -->
+
+        <a href="#"><div class="list-items">
+            <div class="product-img" style="background-image: url('RCB\ jersey.webp'); background-size: cover; height: 250px; width: 241px; padding: 0px 8px;">
+
+            </div>
+            <div class="product-name-detail">
+                <div class="product-name"><h2>ORIGINAL ROYAL CHALLENGERS BANGALURU FAN JERSEY</h2></div>
+                <div class="product-details-div">
+                <div class="product-price"><div class="product-price-div">Rs. 999/-</div>
+                </div>
+                <p>Free Delivery</p>
+                <p style="margin-top: 20px;">Get it buy 7-10 days</p>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    </div>
+
+    <!-- End of body area -->
+    <!-- Footer area -->
+
+
+    <footer>
+        <div class="footer-panel1">
+            Back to top
+        </div>
+        <div class="footer-panelrow">
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Investor relations</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Connect with Us</p>
+                <a href="https://www.facebook.com/sanket.pal.5817/">Facebook</a>
+                <a href="https://x.com/SanketP02536991">Twitter</a>
+                <a href="https://www.instagram.com/sanketpalbrj_07/">Instagram</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on Cricket.com</a>
+                <a href="#">Build Your Brand with Us</a>
+                <a href="#">Cricket.com Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+            </ul>
+        </div>
+        <div class="footer-panelrow2">
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Cricket.com</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-panel3">
+        <div class="logo"><a href="#"></a></div>
+        <div class="footer-panel3a">
+            <div class="footer-panel3a1">
+                <a href="#">Conditons of Use & Sale</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Internet baseb Ads</a>
+            </div>
+            <div class="footer-panel3a2">
+                <p>© 2024 Cricket.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
