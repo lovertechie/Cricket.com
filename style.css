@@ -281,7 +281,7 @@ img {
 .bestsellers{
     height: 412px;
     display: flex;
-    justify-content: space-evenly:
+    justify-content: space-evenly;
     align-items: center;
 }
 
