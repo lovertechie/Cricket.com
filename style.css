@@ -242,11 +242,13 @@ img {
 .toppicks{
     height: 412px;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .picked-items{
     height: 412px;
+    display: flex;
 }
 
 .picked-items a{
@@ -256,6 +258,7 @@ img {
 
 .picked-item-opts{
     height: 412px;
+    margin-right: 10px;
     border: 1px solid whitesmoke;
     
 }
@@ -278,11 +281,13 @@ img {
 .bestsellers{
     height: 412px;
     display: flex;
+    justify-content: space-evenly:
     align-items: center;
 }
 
 .bestseller-items{
     height: 412px;
+    display: flex;
 }
 
 .bestseller-items a{
@@ -292,6 +297,7 @@ img {
 
 .bestseller-opts{
     height: 412px;
+    margin-right: 10px;
     border: 1px solid whitesmoke;
     
 }
