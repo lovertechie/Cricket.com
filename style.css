@@ -307,16 +307,19 @@ img {
 
 .press-highlight{
     height: 412px;
-    width: 1400px;
-    padding: 20px;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     
 }
 
 .press-highlight-box{
     height: 412px;
+    width: 1100px;
     display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 .press-icon{
@@ -326,11 +329,9 @@ img {
     align-items: center;
     justify-content: center;
     border-right: 0.30px solid black;
-    background-color: whitesmoke;
 }
 
 .press-blog{
-    background-color: whitesmoke;
     display: block;
     text-align: center; 
 }
